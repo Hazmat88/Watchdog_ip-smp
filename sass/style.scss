@@ -1,0 +1,130 @@
+//Imports Sass
+
+@import "palette.scss";
+
+
+
+@font-face {
+    font-family: 'pantherregular';
+    src: url('../font/panther-webfont.woff2') format('woff2'),
+         url('../font/panther-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+  background-color: #17191E;
+}
+
+p{
+  color:white;
+}
+
+h1{
+  float:right;
+  color:white;
+  font-size: 8vw;
+  font-family:pantherregular, sans-serif;
+  font-weight:bold;
+  background: linear-gradient(330deg, #BB514A 0%, #CB2882 25%, #8677E0 50%, #53DDE0  75%, #53DDE0 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 4vw;
+
+}
+
+h2{
+  margin-top: 5vw;
+  float:left;
+  color:white;
+  font-size: 3.2vw;
+  font-family:pantherregular, sans-serif;
+  background: linear-gradient(-330deg, #BB514A 0%, #CB2882 25%, #8677E0 50%, #53DDE0  75%, #53DDE0 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+line-height :80px;
+
+
+}
+
+
+
+.camera{
+
+}
+
+.wiki{
+    margin-top:-4vw;
+    float:left;
+    clear:both;
+    padding-right:2vw;
+}
+
+
+.sony{
+  margin-top:-4vw;
+  float:left;
+
+}
+
+.button {
+
+  border: none;
+  padding: 2vw 19vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+  /*margin: 4px 2px;*/
+  cursor: pointer;
+  font-family:pantherregular, sans-serif;
+
+}
+/*8972E0*/
+/*5CCCE0*/
+/*7A90E0*/
+
+.button1{
+  width: 45vw;
+    background-color: #CB2882; color: #17191E;;
+
+
+}
+
+.button2{
+  width:49vw;
+    background-color: #53DDE0; color: #17191E;;
+
+}
+
+/* ---------------- CAM ------------------*/
+/* CAM01 */
+.cam01{
+  width: 45vw;
+  height:30vw;
+  background-color:$darkgrey ;
+
+}
+
+.cam02{
+  width: 49vw;
+  height:30vw;
+  background-color: $lightgrey;
+
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+  h2{
+    margin-top: 50px;
+  }
+
+  h1{
+      font-size:10vh;
+      margin-top:-2vh;
+  }
+}
