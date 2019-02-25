@@ -13,6 +13,7 @@
 
 }
 
+label{color:white;}
 
 body{
   background-color: #17191E;
@@ -31,12 +32,12 @@ h1{
   background: linear-gradient(330deg, #BB514A 0%, #CB2882 25%, #8677E0 50%, #53DDE0  75%, #53DDE0 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-margin-top: 4vw;
+margin-top: 0vw;
 
 }
 
 h2{
-  margin-top: 5vw;
+  margin-top: 1vw;
   float:left;
   color:white;
   font-size: 3.2vw;
@@ -94,7 +95,7 @@ line-height :80px;
 }
 
 .button2{
-  width:49vw;
+  width:50vw;
     background-color: #53DDE0; color: #17191E;;
 
 }
@@ -109,22 +110,49 @@ line-height :80px;
 }
 
 .cam02{
-  width: 49vw;
+  width: 50vw;
   height:30vw;
   background-color: $lightgrey;
 
 }
 
+#audio_pane{
+  /*position:absolute;
+  top:13vw;*/
+}
 
 
-
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 850px) {
   h2{
-    margin-top: 50px;
+    margin-top: 10px;
+    text-align:center;
+    float:none;
+    font-size:3vh;
   }
 
   h1{
       font-size:10vh;
       margin-top:-2vh;
+      text-align:center;
+      float:none;
   }
+.camera{
+  margin-top: -4vh;
+}
+.button{
+  font-size:5vw;
+}
+
+.wiki, .button1, .cam01,
+.sony, .button2, .cam02{
+  width:97vw;
+}
+
+.cam01, .cam02{
+  height: 49vw;
+}
+.wiki{
+  margin-bottom:5vw;
+}
+
 }
