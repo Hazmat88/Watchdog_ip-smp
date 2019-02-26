@@ -13,3 +13,22 @@ $("clock").innerHTML=str;
 setTimeout(hms,1000);// réécriture toutes les 1000 millisecondes
 }
 hms();// lancement de la fonction
+
+
+
+function fhideshoww() {
+  var x = document.getElementById("bwiki");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function fhideshows() {
+  var x = document.getElementById("bsony");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

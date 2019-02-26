@@ -50,6 +50,18 @@ line-height :80px;
 
 }
 
+.rotated-imagew {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+
+}
+.rotated-images {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+      img{
+        margin-top:-27.1vw;
+      }
+}
 
 
 .camera{
@@ -61,6 +73,7 @@ line-height :80px;
     float:left;
     clear:both;
     padding-right:2vw;
+
 }
 
 
@@ -69,6 +82,7 @@ line-height :80px;
   float:left;
 
 }
+
 
 .button {
 
@@ -112,10 +126,17 @@ line-height :80px;
 .cam02{
   width: 50vw;
   height:30vw;
-  background-color: $lightgrey;
+  background-color: red;
+clear:both;
 
 }
 
+.cam020{
+  width: 50vw;
+  height:30vw;
+  background-color: $lightgrey;
+
+}
 #audio_pane{
   /*position:absolute;
   top:13vw;*/
