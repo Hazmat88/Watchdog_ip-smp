@@ -51,10 +51,12 @@ line-height :80px;
 }
 
 .rotated-imagew {
+
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-
 }
+
+
 .rotated-images {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
@@ -174,6 +176,18 @@ clear:both;
 }
 .wiki{
   margin-bottom:5vw;
+}
+
+
+.rotated-imagew {
+  margin-top:24vw;
+
+  .cam01{
+    width: 100vw;
+    height:70vw;
+  }
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 }

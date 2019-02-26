@@ -127,6 +127,14 @@ h2 {
     height: 49vw; }
 
   .wiki {
-    margin-bottom: 5vw; } }
+    margin-bottom: 5vw; }
+
+  .rotated-imagew {
+    margin-top: 24vw;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg); }
+    .rotated-imagew .cam01 {
+      width: 100vw;
+      height: 70vw; } }
 
 /*# sourceMappingURL=style.css.map */
