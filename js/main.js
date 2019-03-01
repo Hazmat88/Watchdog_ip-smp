@@ -26,9 +26,22 @@ function fhideshoww() {
 }
 function fhideshows() {
   var x = document.getElementById("bsony");
+  var y = document.getElementById("bwiki");
   if (x.style.display === "none") {
     x.style.display = "block";
+    y.setAttribute("class", "wiki");
   } else {
     x.style.display = "none";
+    y.setAttribute("class", "fullw");
+  }
+}
+
+function rotatew() {
+  var img = document.getElementById("bwiki");
+
+  if ( img.className === "rotated-imagew") {
+    img.setAttribute("class", "wiki");
+  }else {
+    img.setAttribute("class", "rotated-imagew");
   }
 }
